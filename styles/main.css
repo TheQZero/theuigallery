@@ -1,0 +1,37 @@
+.gh {
+  background: linear-gradient(
+	270.97deg,
+	#FFE580 -21.36%,
+	#FF7571 -2.45%,
+	#EA5DAD 26.84%,
+	#C2A0FD 64.15%,
+	#3BF0E4 108.29%,
+	#B2F4B6 159.03% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.flex-container-v{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+.flex-object{
+    width:100%
+}
+
+html{
+  scroll-snap-type: y mandatory;
+}
+
