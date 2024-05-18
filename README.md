@@ -1,1 +1,1 @@
-# theuigallery.github.io
+# theuigallery
